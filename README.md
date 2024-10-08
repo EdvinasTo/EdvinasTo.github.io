@@ -1,1 +1,1 @@
-For now this portfolio is designed only for computers. Opening in other devices portfolio's structure might be unaligned.
+For now this portfolio is designed only for computers. Portfolio's structure might be unaligned when opening it on other devices. 
