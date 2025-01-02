@@ -150,7 +150,7 @@ img{
     text-align: right;
     height: 10%;
     width: 100%;
-    bottom: -10%;
+    bottom: 100%;
     right: -50px;
 }
 
@@ -161,8 +161,8 @@ img{
     position: relative;
     align-items: center;
     background-color: var(--bg-color);
-    max-width: 200px;
-    max-height: 250px;
+    max-width: 210px;
+    max-height: 280px;
     margin: 2rem;
     border-radius: var(--border-size);
     color: white;
@@ -231,10 +231,12 @@ img{
 }
 
 #sec{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-items: center;
     width: 40%;
+    gap: 2rem;
 }
 
 .languages {
@@ -248,7 +250,8 @@ img{
 }
 
 .lang {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
     background-color: rgb(173, 2, 236); 
     color: #fff; 
     padding: 0.5rem 1rem; 
@@ -264,12 +267,13 @@ section{
 }
 
 #oval{
-    height: 1500px;
+    height: 1600px;
 }
 
 @media (max-width: 768px) { 
     html {
         font-size: 50%; 
+        max-width: 768px;
     }
 
     h1 {
@@ -280,6 +284,8 @@ section{
     #box1 {
         width: 90%; 
         text-align: center;
+        max-height: 500px;
+        
     }
 
     .home {
@@ -301,7 +307,8 @@ section{
 
     #box3 {
         border-radius: 40%;
-        margin-top: 25%;
+        margin-top: 50%;
+        padding-bottom: 20px;
     }
 
     .card {
@@ -329,7 +336,9 @@ section{
     }
 
     #oval{
-        height: 2100px;
+        padding-top: 250px;
+        height: fit-content;
+        margin-bottom: 440px;
     }
 
     section{
