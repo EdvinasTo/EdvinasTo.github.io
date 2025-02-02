@@ -161,7 +161,7 @@ img{
     position: relative;
     align-items: center;
     background-color: var(--bg-color);
-    max-width: 210px;
+    max-width: 240px;
     max-height: 280px;
     margin: 2rem;
     border-radius: var(--border-size);
@@ -267,7 +267,7 @@ section{
 }
 
 #oval{
-    height: 1600px;
+    height: 1650px;
 }
 
 @media (max-width: 768px) { 
