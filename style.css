@@ -161,6 +161,7 @@ img{
     position: relative;
     align-items: center;
     background-color: var(--bg-color);
+    min-width: 240px;
     max-width: 240px;
     max-height: 280px;
     margin: 2rem;
