@@ -1,1 +1,2 @@
-For now this portfolio is designed only to view in computers. Portfolio's structure might be unaligned or unstructured when opening it on other devices. 
+It is my own personal portfolio where I share the projects that I've worked on.
+You can visit the site by going to this address: https://edvinasto.github.io/
